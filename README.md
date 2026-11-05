@@ -8,7 +8,7 @@ The stream can live in the default pool for a compartment or in an explicit stre
 
 ```hcl
 module "stream" {
-  source = "github.com/moveeeax/terraform-oci-streaming"
+  source = "github.com/moveeeax/terraform-oci-streaming?ref=v1.0.0"
 
   compartment_id     = var.compartment_id
   name               = "prod-events"
